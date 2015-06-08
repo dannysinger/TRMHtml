@@ -1,0 +1,33 @@
+body{
+    background-color:#938E97;
+}
+.main{
+    font-weight:900;
+}
+ol li{
+    font-size:2em;
+    }
+.red{
+    color:red;
+}
+.orange{
+    color:orange;
+}
+.yellow{
+    color:yellow;
+}
+.blue{
+    color:blue;
+}
+.green{
+    color:green;
+}
+.purp{
+    color:purple;
+}
+.sky{
+    color:skyblue;
+}
+.teal{
+    color:teal
+}
