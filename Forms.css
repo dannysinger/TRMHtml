@@ -1,0 +1,25 @@
+/*Why do you need DISPLAY:BLOCK to center an image (on the page or IN a div) and not a DIV?*/
+/*This is more of the thing I was going for: http://zurb.com/playground/newspaper-layout*/
+body{
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+    
+}
+.main-container{
+    width:50rem;
+    margin:0 auto;
+    border:1px solid black;
+}
+img{
+    max-width:30%;
+    border:1px solid black;
+}
+article{
+    width:69%;
+    display:block;
+    position:relative;
+    float:right;
+    border:1px solid black;
+    font-size:1.4rem;
+    font-family:lucida grande;
+}
