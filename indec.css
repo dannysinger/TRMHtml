@@ -1,0 +1,176 @@
+
+/*https://github.com/dannysinger/TRMHtml/blob/master/main.css*/
+body{
+    /*background-color:#938E97;*/
+    background-image:url("http://wallpoper.com/images/00/41/12/11/tool-alex_00411211.jpg");
+    background-color:#FF0000;
+    /*BA3523*/
+    background-repeat:repeat-x;
+    background-blend-mode:saturation;
+   
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing:antialiased;
+        font-family:helvetica;
+    }
+    span{
+        font-weight: 800;
+        border: 4px solid #20CE0C;
+        padding-left:2px;
+    }
+    table{
+        max-width: 20em;
+        width:20em;
+        display:block;
+        position:relative;
+        float:left;
+        margin:2px 2px 2px 2px;
+    }
+    table, th, td{
+        border: 2px solid #20CE0C;
+        font-size:1.5em;
+        color:#20CE0C;
+    }
+    a{
+        color:#20CE0C;
+    }
+    ul{display:inline;text-align:center; font-size:1.5em;
+        margin-left:auto;
+        margin-right:auto;
+        max-width:50em;}
+        a:link{color:inherit;}
+    h1, ul, a{
+    color:#90E686;
+    text-align:center;
+    padding:0;
+    font-weight:600;
+}
+p{margin-top: 0.5em;margin-bottom: 0.5em;}
+div{
+    height:20em;
+    border:2px solid black;
+    border-radius: 100%;
+    margin:auto;
+    margin-right:auto;
+    margin-left:auto;
+}
+img{
+    left:26%;
+    display:block;
+    position:absolute;
+    z-index: -1;
+    opacity:0.4
+}li{
+    font-weight:200;
+}
+/*nth-child formula spectrum 16 000*/
+ol li{font-size:2em;}div:nth-child(7){background-color:#FF0000;}div:nth-child(7) ul{font-size:2em;color:#20CE0C;}
+    div:nth-child(7) a{position: relative; /*changed from absolute*/width: 100%;height: 100%;top: 0;left: 0;
+    text-decoration: none; /* No underlines on the link */z-index: 10; /* Places the link above everything else in the div */
+    /* Fix to make div clickable in IE */opacity: 0.4; /* Fix to make div clickable in IE */filter: alpha(opacity=1); /* Fix to make div clickable in IE */  }
+    div:nth-child(6){background-color:#FF6A00;}div:nth-child(6) ul{color:#0C8CCE;font-size:2em;}div:nth-child(5){background-color:#FFE700;}
+    div:nth-child(5) ul{color:#4F0DCC;font-size:2em;}div:nth-child(4){background-color:#00FF33;}div:nth-child(4) ul{color:#FF2200;font-size:2em;}
+    div:nth-child(3){background-color:#007AFF;}div:nth-child(3) ul{color:#FF9400;font-size:2em;}div:nth-child(2){background-color:#2200FF;}
+    div:nth-child(2) ul{color:#FFD200;font-size:1.5em;}div:nth-child(2) ul span{font-size:0.5em;}div:first-child{background-color:#5D00C7;}
+    div:first-child ul{color:#C7BE00;font-size:2em;}/*end clr.css*/img{
+        max-width:30%;
+        border:1px solid black;
+    }
+    article{
+        width:69%;
+        display:block;
+        position:relative;
+        float:right;
+        border:1px solid black;
+        font-size:1.4rem;
+        font-family:lucida grande;
+    }
+#title{
+    /*color:#20CE0C;*/
+    font-size:6em;
+    margin-top:1em;
+    font-weight:bold;
+    font-family:Arial;
+    position:relative;
+}
+#name{
+    color:#20CE0C;
+    font-size:3em;
+    font-weight:bold;
+    font-family:Arial;
+    position:relative;
+}
+#narovr{
+    color:#20CE0C;
+    font-size:2em;
+    font-family:Cursive;
+    position:relative;
+    /*display:inline-flex;*/
+}
+#context{
+    color:#20CE0C;
+    font-size:2em;
+    font-family:Cursive;
+    position:relative;
+    display:inline;
+}
+#imp1{
+    color:#20CE0C;
+    font-size:2em;
+    font-family:Cursive;
+    position:relative;
+    display:inline-flex;
+}
+
+#part2{
+     color:#20CE0C;
+    font-size:2em;
+    font-family:Cursive;
+    position:relative;
+    display:inline;   
+}
+#conclusion{
+    color:#20CE0C;
+    font-size:2em;
+    font-family:Cursive;
+    position:relative;
+    display:inline;
+}
+#conc2{
+    color:#20CE0C;
+    font-size:2em;
+    font-family:Cursive;
+    position:relative;
+    display:inline;
+    margin-top:1em;
+}
+.clear{
+    clear:both;
+    display:inline-block;
+    content:"";
+    width:50%;
+    height:7em;  
+}
+#wc{
+    border:2px solid #20CE0C;
+    width:100%;
+    height:10em;
+    display:inline-block;
+    position:relative;
+}
+#wc li, h1{
+    color:#20CE0C;
+}
+#wc li{
+    font-size:2em;}
+
+
+}
+.main{
+    font-weight:900;
+}.main-container{
+    width:50rem;
+    margin:0 auto;
+    border:1px solid black;
+}
+.red{color:red;}.orange{color:orange;}.yellow{color:yellow;}.blue{color:blue;}.green{color:green;}.purp{color:purple;.sky{color:skyblue;}.teal
+{color:teal}
