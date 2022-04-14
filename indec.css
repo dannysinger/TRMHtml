@@ -2,6 +2,7 @@
 /*https://github.com/dannysinger/TRMHtml/blob/master/main.css*/
 body{
     /*background-color:#938E97;*/
+    /*Using Google APIs Open Sans and Gentium Book Basic*/
     background-image:url("http://wallpoper.com/images/00/41/12/11/tool-alex_00411211.jpg");
     background-color:#FF0000;
     /*BA3523*/
@@ -10,13 +11,45 @@ body{
    
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing:antialiased;
-        font-family:helvetica;
+        
+    width:100%;/*margin:0*/
+    overflow-x:hidden;
+    font-family:helvetica;
+    font-family:"lucida grande";
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    /*font-size:1em;
+    font-size:16px;*/
     }
+    .background{
+        background:url(BirdsBeansFront.jpg);
+        background-blend-mode: multiply;
+        background-size:290%;
+        background-position-x:2%;
+        background-position-y:0;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index:-1;
+        width:100%;
+        height:100%;
+        filter:hue-rotate(-152deg);
+    }
+    header{
+        margin-bottom:4.375em;
+      }
     span{
         font-weight: 800;
+        font-weight:bold;
+        font-family:Helvetica Neue;
         border: 4px solid #20CE0C;
         padding-left:2px;
     }
+    section{
+        max-width:38em;
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:2em;
+      }
     table{
         max-width: 20em;
         width:20em;
@@ -30,6 +63,14 @@ body{
         font-size:1.5em;
         color:#20CE0C;
     }
+    .masthead{
+        width:100%;
+        height:25em;
+        background-image: url("https://scontent-ord.xx.fbcdn.net/hphotos-xfp1/t31.0-8/c0.148.851.315/p851x315/10383766_687703514610153_1230156070728064690_o.jpg");
+        background-repeat:none;
+        background-size:cover;
+        border-top:solid 1.25em #D17700;
+      }
     a{
         color:#20CE0C;
     }
@@ -37,14 +78,34 @@ body{
         margin-left:auto;
         margin-right:auto;
         max-width:50em;}
-        a:link{color:inherit;}
+       
     h1, ul, a{
-    color:#90E686;
+        color:#0C8CCE;
     text-align:center;
     padding:0;
     font-weight:600;
 }
-p{margin-top: 0.5em;margin-bottom: 0.5em;}
+a:link{
+    text-decoration:none;
+    color:antiquewhite;
+  }
+  a:visited{
+    color:#A75F20;
+  }
+  a:hover{
+    color:#E3AD7E;
+  }
+.masthead-intro{
+    font-family:"Gentium Book Basic", Georgia, serif;
+    color:white;
+    margin-top:6.25em;
+    margin-left:auto;
+      margin-right:auto;
+    font-weight:100;
+    font-size:2.188em;
+      text-align:center;
+  }
+p{margin-top: 0.5em;margin-bottom: 0.5em;color:white;}
 div{
     height:20em;
     border:2px solid black;
@@ -75,6 +136,16 @@ ol li{font-size:2em;}div:nth-child(7){background-color:#FF0000;}div:nth-child(7)
         max-width:30%;
         border:1px solid black;
     }
+    .masthead-heading{
+        font-family:Arial;
+        font-size:12vw;
+        color:#C2BE9D;
+        text-shadow:0px 5px 0px #A75F00;
+        margin-top:-0.5em;
+        margin-left:auto;
+          margin-right:auto;
+          text-align:center;
+      }
     article{
         width:69%;
         display:block;
@@ -84,6 +155,7 @@ ol li{font-size:2em;}div:nth-child(7){background-color:#FF0000;}div:nth-child(7)
         font-size:1.4rem;
         font-family:lucida grande;
     }
+    
 #title{
     /*color:#20CE0C;*/
     font-size:6em;
@@ -174,3 +246,55 @@ ol li{font-size:2em;}div:nth-child(7){background-color:#FF0000;}div:nth-child(7)
 }
 .red{color:red;}.orange{color:orange;}.yellow{color:yellow;}.blue{color:blue;}.green{color:green;}.purp{color:purple;.sky{color:skyblue;}.teal
 {color:teal}
+.intro-section h1, .location-section h1, .questions-section h1{
+    font-weight:bold;
+    text-align:left;
+    font-family:"Open Sans", "Helvetica Neue", sans-serif;
+    font-size:1.875em;
+    margin-bottom:1.25em;
+  }
+  .questions-section h2{
+    font-weight:bold;
+    text-align:left;
+    font-family:"Open Sans", "Helvetica Neue", sans-serif;
+    font-size:1.25em;
+    margin-bottom:1.25em;
+    color:#D17728;
+  }
+  .intro-section p, .location-section p, .questions-section ul li, h2, p{
+    text-align:left;
+    font-family:"Open Sans", "Helvetica Neue", sans-serif;
+    font-weight:400;
+    font-size:1.375em;
+    letter-spacing:0.05em;
+  }
+  .love{
+    color:#D17728;
+  }
+  .content-footer{
+    background-color:#584E48;
+    height:16em;
+    margin-top:5.625em;
+    font-family:"Gentium Book Basic", Georgia, Serif;
+  }
+  .content-footer p{
+    font-family:"Open Sans", "Helvetica Neue", sans-serif;
+     font-size:1.5em;
+     font-weight:100;
+     color:white;
+     text-align:center;
+     padding-top:3.125em;
+   }
+   .experience{
+    text-align:center;
+    padding:0.625em;
+    /*font-family:helvetica;*/
+    font-size:1.625em;
+    font-weight:bold;
+    color:#D17728;
+  }
+  .experience li{
+    display:inline-block;
+    padding:0.625em;
+   /* The link spacing was created by using padding on the <ul> and the <li> */
+ }
